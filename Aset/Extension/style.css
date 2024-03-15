@@ -465,20 +465,6 @@
             width: 100%;
           }
 
-          #p5 a.tbl-biru {
-            background: #015eea;
-            border-radius: 20px;
-            margin-top: 20px;
-            padding: 15px 20px 15px 20px;
-            color: #ffffff;
-            cursor: pointer;
-          }
-
-          #p5 a.tbl-biru:hover {
-            background: #00a7f7;
-            text-decoration: none;
-          }
-
           #p5 a.tbl-pink {
             background: #ffffff;
             border-radius: 20px;
