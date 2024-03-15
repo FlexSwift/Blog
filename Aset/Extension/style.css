@@ -437,7 +437,7 @@
             height: auto;
             padding: 3rem 4rem;
             display: inline-block;
-            background-color: #015eea;
+            background-image: linear-gradient(to bottom, #015eea, #00388c);
           }
 
           #p5 section {
