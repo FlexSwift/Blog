@@ -1,0 +1,561 @@
+/*HTML*/
+        html {
+          scroll-behavior: smooth;
+        }
+        * {
+          padding: 0%;
+          margin: 0%;
+        }
+        body {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        }
+/*HTML*/
+
+/*Navbar*/
+          header {
+            position: sticky;
+            height: 70px;
+            background-image: linear-gradient(#474747,#323232);
+            color: #00c0fa;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            top: 0;
+            padding: 1rem 2rem;
+            z-index: 9999;
+          }
+          .logo {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            width: 20%;
+          }
+          .logo img {
+            height: 60px;
+          }
+          .logo h1 {
+            margin-left: 5%;
+            font-weight: 600;
+          }
+          .searchbox {
+            width: 35%;
+          }
+          .searchbox input {
+            width: 80%;
+            height: 35px;
+            border: none;
+            border-radius: 8px;
+            padding: 1%;
+            text-indent: 10px;
+            font-size: 16px;
+          }
+          .navbar__container ul {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 0;
+            margin: 0;
+          }
+          .navbar__container li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.25s ease;
+            text-align: center;
+            cursor: pointer;
+            overflow: hidden;
+            max-height: 28px;
+          }
+          .navbar__container ul li:hover {
+            max-height: 64px;
+          }
+          .navbar__container ul li img {
+            display: block;
+            width: 28px;
+            height: 28px;
+          }
+          .navbar__container ul li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 18px;
+          }
+          .navbar__container ul li a:active,
+          :focus {
+            display: inline;
+          }
+          .Konten {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+          }
+/*Navbar*/
+
+/*Beranda*/
+          #p1 {
+            height: 700px;
+            padding: 0rem 8rem;
+            display: inline-block;
+            background-image: url(../Vector/Beranda.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+          }
+          #p1 a.tbl-pink {
+            background: #ffffff;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 10px 20px 10px 20px;
+            color: #000000;
+            cursor: pointer;
+          }
+
+          #p1 a.tbl-pink:hover {
+            background: #474747;
+            color: white;
+            text-decoration: none;
+          }
+          #p1 small {
+            color: #fff;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 500;
+          }
+          #p1 h1 {
+            font-size: 80px;
+            font-weight: bold;
+            margin: 10px 0 30px;
+            line-height: 80px;
+            color: #fff;
+          }
+/*Beranda*/
+
+/*Produk*/
+          #p2 {
+            height: auto;
+            padding: 5rem 2rem;
+            display: inline-block;
+            background-color: #015eea;
+          }
+                    
+          #p2 .clearfix:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+          }
+
+          #p2 .clearfix {
+            display: inline-block;
+          }
+
+          #p2 * {
+            box-sizing: border-box;
+          }
+
+          #p2 a {
+            text-decoration: none !important;
+          }
+
+          #p2 ul {
+            margin-bottom: 20px;
+            margin-left: 20px;
+            list-style-image: url(../Vector/list.png);
+          }
+
+          #p2 li {
+            font-size: 13px;
+            margin-bottom: 5px;
+          }
+
+          #p2 p {
+            font-size: 15px;
+            line-height: 28px;
+            font-weight: 400;
+          }
+
+          #p2 h2 {
+            font-weight: bold;
+            font-size: 40px;
+          }
+
+          #p2 img {
+            width: 100%;
+            overflow: hidden;
+          }
+
+          #p2 .produk {
+            background-color: #0049b1;
+          }
+
+          #p2 .section {
+            padding-top: 20px;
+            margin-top: 80px;
+          }
+
+          #p2 .section-heading {
+            margin-bottom: 60px;
+          }
+
+          #p2 .main-button a {
+            display: inline-block;
+            background-color: #474747;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            height: 40px;
+            line-height: 40px;
+            padding: 0px 25px;
+            border-radius: 20px;
+            transition: all 0.3s;
+            margin-top: 20px;
+          }
+
+          #p2 .main-button a:hover {
+            background-color: #ffaa3e;
+            color: #fff;
+          }
+
+          #p2 .titik {
+            color: #00fbff;
+            font-size: 15px;
+            font-weight: 500;
+          }
+
+          #p2 .judul {
+            color: #ffffff;
+            text-align: center;
+            padding-top: 50px;
+          }
+
+          #p2 .services .service-item {
+            transition: margin-top 0.125s ease;
+          }
+
+          #p2 .services .service-item:hover {
+            margin-top: -10px;
+          }
+
+          #p2 .services .service-item {
+            position: relative;
+            margin-top: 10px;
+          }
+
+          #p2 .services .service-item .icon {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            text-align: center;
+            line-height: 150px;
+            border-radius: 50%;
+            position: absolute;
+            right: 30px;
+            top: -65px;
+            margin-top: 0px;
+          }
+
+          #p2 .services .service-item .icon img {
+            max-width: 150px;
+            transition: margin-top 0.25s ease;
+          }
+
+          #p2 .boxH {
+            background-image: linear-gradient(90deg,#19b6ff,#00a7f7) ;
+            box-shadow: 0 0 15px #000;
+          }
+
+          #p2 .boxB {
+            background-image: linear-gradient(45deg,#de2b22,#f4493f) ;
+            box-shadow: 0 0 15px #000;
+          }
+
+          #p2 .boxM {
+            background-image: linear-gradient(160deg,#ffc561,#f69e05) ;
+            box-shadow: 0 0 15px #000;
+          }
+
+          #p2 .icon {
+            background-color: #ffffff;
+          }
+
+          #p2 .services .service-item .main-content {
+            border-radius: 25px;
+            padding: 80px 30px 50px 30px;
+            margin-bottom: 30px;
+            margin-right: 80px;
+            transition: margin-top 1.5s ease;
+          }
+
+          #p2 .services .service-item h4 {
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 30px;
+            transition: margin-top 1.5s ease;
+          }
+
+          #p2 .services .service-item li {
+            font-weight: 600;
+            font-size: 14px;
+          }
+
+          #p2 .services .service-item p {
+            color: #474747;
+            margin-bottom: 25px;
+          }
+
+          @media (max-width: 992px) {
+            #p2 .services {
+              margin-top: 80px;
+            }
+            #p2 .services .service-item .icon {
+              width: 170px;
+              height: 170px;
+              line-height: 170px;
+            }
+          }
+/*Produk*/
+
+/*Pembelian*/
+          #p3 {
+            width: 100%;
+            height: auto;
+            padding: 5rem 8rem;
+            display: inline-block;
+            background-color: #015eea;
+          }
+          #p3 .isi {
+            margin: 20px auto;
+          }
+
+          #p3 .img1, .img2 {
+            max-width: 600px;
+          }
+          #p3 .img1 {
+            float: left;
+          }
+          
+          #p3 .img2 {
+            float: right;
+          }
+
+          #p3 .text-box {
+            color : #fff;
+          }
+
+          #p3 .text-box h2 {
+            font-size: 42px;
+            font-weight: 750;
+          }
+
+          #p3 .text-box p {
+            font-size: 18px;
+            font-weight: 400;
+          }
+
+          #p3 .titik {
+            color: #00fbff;
+            font-size: 15px;
+            font-weight: 500;
+            text-align: center;
+          }
+/*Pembelian*/
+
+/*Kontak*/
+          #p4 {
+            width: 100%;
+            height: auto;
+            padding: 8rem 4rem;
+            display: inline-block;
+            background-color: #015eea;
+          }
+
+          #p4 .container {
+            display: flex;
+            margin: 0 auto;
+            max-width: 75%;
+            color: white;
+          }
+
+          #p4 .kontak {
+            width: 50%;
+            background-image: linear-gradient(100deg, #005ae0, #00a7f7);
+            box-shadow: -1px 0 20px #ffffff35;
+            padding: 30px;
+            border-radius: 20px;
+          }
+
+          #p4 .kontak h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+            font-weight: bold;
+          }
+
+          #p4 .kontak ul {
+            list-style: none;
+            padding: 0;
+          }
+
+          #p4 .kontak li {
+            margin-bottom: 10px;
+          }
+
+          #p4 .kontak li strong {
+            display: block;
+            font-size: 17px;
+          }
+
+          #p4 .deskripsi {
+            width: 70%;
+            padding: 20px;
+            font-weight: 500;
+          }
+
+          #p4 .deskripsi h2 {
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 40px;
+          }
+
+          #p4 .titik {
+            color: #00fbff;
+            font-size: 15px;
+            font-weight: 500;
+          }
+
+          #p4 ul li a {
+            color: white;
+            font-size: 18px;
+          }
+/*Kontak*/
+
+/*Tentang*/
+          #p5 {
+            width: 100%;
+            height: auto;
+            padding: 3rem 4rem;
+            display: inline-block;
+            background-color: #015eea;
+          }
+
+          #p5 section {
+            margin: auto;
+            display: flex;
+            margin-bottom: 50px;
+          }
+
+          #p5 .kolom {
+            margin-top: 50px;
+            margin-bottom: 50px;
+          }
+
+          #p5 .kolom .deskripsi {
+            font-size: 40px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+          }
+
+          #p5 h2 {
+            font-weight: 400;
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #ffffff;
+            width: 100%;
+          }
+
+          #p5 a.tbl-biru {
+            background: #015eea;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+            color: #ffffff;
+            cursor: pointer;
+          }
+
+          #p5 a.tbl-biru:hover {
+            background: #00a7f7;
+            text-decoration: none;
+          }
+
+          #p5 a.tbl-pink {
+            background: #ffffff;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 10px 20px 10px 20px;
+            color: #000000;
+            cursor: pointer;
+            font-weight: bold;
+          }
+
+          #p5 a.tbl-pink:hover {
+            background: #474747;
+            color: white;
+            text-decoration: none;
+          }
+
+          #p5 .deskripsi-2 {
+            color: white;
+            margin: 10px 0px 20px 0px;
+            padding: 10px 0px 10px 0px;
+          }
+
+          #p5 .titik {
+            color: #00fbff;
+            font-size: 15px;
+            font-weight: 500;
+          }
+/*Tentang*/
+
+/*Scroll*/
+          scroll img {
+            position: fixed;
+            right: 30px;
+            bottom: 20px;
+            width: 50px;
+            height: 50px;
+            width: 50px;
+            height: 50px;
+          }
+/*Scroll*/
+
+/*Footer*/
+          footer {
+            background: #474747;
+            height: auto;
+            width: 100%;
+            padding-top: 40px;
+            color: #fff;
+          }
+          .footer-konten {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+          }
+          .footer-konten h3 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            text-transform: capitalize;
+            line-height: 3rem;
+          }
+          .footer-konten p {
+            max-width: 100%;
+            margin: 10px auto;
+            line-height: 28px;
+            font-size: 14px;
+          }
+          .footer-bawah {
+            background: #323232;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+          }
+          .footer-bawah p {
+            font-size: 14px;
+            word-spacing: 2px;
+            text-transform: capitalize;
+          }
+/*Footer*/  
