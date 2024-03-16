@@ -92,7 +92,7 @@
 /*Navbar*/
 
 /*Beranda*/
-          #Beranda {
+          #p1 {
             height: 750px;
             padding: 0rem 8rem;
             display: inline-block;
@@ -100,7 +100,7 @@
             background-repeat: no-repeat;
             background-size: 100%;
           }
-          #Beranda a.tbl-pink {
+          #p1 a.tbl-pink {
             background: #ffffff;
             border-radius: 20px;
             margin-top: 20px;
@@ -109,18 +109,18 @@
             cursor: pointer;
           }
 
-          #Beranda a.tbl-pink:hover {
+          #p1 a.tbl-pink:hover {
             background: #474747;
             color: white;
             text-decoration: none;
           }
-          #Beranda small {
+          #p1 small {
             color: #fff;
             font-size: 16px;
             font-style: italic;
             font-weight: 500;
           }
-          #Beranda h1 {
+          #p1 h1 {
             font-size: 80px;
             font-weight: bold;
             margin: 10px 0 30px;
@@ -130,14 +130,14 @@
 /*Beranda*/
 
 /*Produk*/
-          #Produk {
+          #p2 {
             height: auto;
             padding: 5rem 2rem;
             display: inline-block;
             background-color: #015eea;
           }
                     
-          #Produk .clearfix:after {
+          #p2 .clearfix:after {
             content: ".";
             display: block;
             clear: both;
@@ -146,59 +146,59 @@
             height: 0;
           }
 
-          #Produk .clearfix {
+          #p2 .clearfix {
             display: inline-block;
           }
 
-          #Produk * {
+          #p2 * {
             box-sizing: border-box;
           }
 
-          #Produk a {
+          #p2 a {
             text-decoration: none !important;
           }
 
-          #Produk ul {
+          #p2 ul {
             margin-bottom: 20px;
             margin-left: 20px;
             list-style-image: url(../Vector/list.png);
           }
 
-          #Produk li {
+          #p2 li {
             font-size: 13px;
             margin-bottom: 5px;
           }
 
-          #Produk p {
+          #p2 p {
             font-size: 15px;
             line-height: 28px;
             font-weight: 400;
           }
 
-          #Produk h2 {
+          #p2 h2 {
             font-weight: bold;
             font-size: 40px;
           }
 
-          #Produk img {
+          #p2 img {
             width: 100%;
             overflow: hidden;
           }
 
-          #Produk .produk {
+          #p2 .produk {
             background-color: #0049b1;
           }
 
-          #Produk .section {
+          #p2 .section {
             padding-top: 20px;
             margin-top: 80px;
           }
 
-          #Produk .section-heading {
+          #p2 .section-heading {
             margin-bottom: 60px;
           }
 
-          #Produk .main-button a {
+          #p2 .main-button a {
             display: inline-block;
             background-color: #474747;
             color: #fff;
@@ -212,37 +212,37 @@
             margin-top: 20px;
           }
 
-          #Produk .main-button a:hover {
+          #p2 .main-button a:hover {
             background-color: #ffaa3e;
             color: #fff;
           }
 
-          #Produk .titik {
+          #p2 .titik {
             color: #00fbff;
             font-size: 15px;
             font-weight: 500;
           }
 
-          #Produk .judul {
+          #p2 .judul {
             color: #ffffff;
             text-align: center;
             padding-top: 50px;
           }
 
-          #Produk .services .service-item {
+          #p2 .services .service-item {
             transition: margin-top 0.125s ease;
           }
 
-          #Produk .services .service-item:hover {
+          #p2 .services .service-item:hover {
             margin-top: -10px;
           }
 
-          #Produk .services .service-item {
+          #p2 .services .service-item {
             position: relative;
             margin-top: 10px;
           }
 
-          #Produk .services .service-item .icon {
+          #p2 .services .service-item .icon {
             width: 150px;
             height: 150px;
             display: inline-block;
@@ -255,31 +255,31 @@
             margin-top: 0px;
           }
 
-          #Produk .services .service-item .icon img {
+          #p2 .services .service-item .icon img {
             max-width: 150px;
             transition: margin-top 0.25s ease;
           }
 
-          #Produk .boxH {
+          #p2 .boxH {
             background-image: linear-gradient(90deg,#19b6ff,#00a7f7) ;
             box-shadow: 0 0 15px #000;
           }
 
-          #Produk .boxB {
+          #p2 .boxB {
             background-image: linear-gradient(45deg,#de2b22,#f4493f) ;
             box-shadow: 0 0 15px #000;
           }
 
-          #Produk .boxM {
+          #p2 .boxM {
             background-image: linear-gradient(160deg,#ffc561,#f69e05) ;
             box-shadow: 0 0 15px #000;
           }
 
-          #Produk .icon {
+          #p2 .icon {
             background-color: #ffffff;
           }
 
-          #Produk .services .service-item .main-content {
+          #p2 .services .service-item .main-content {
             border-radius: 25px;
             padding: 80px 30px 50px 30px;
             margin-bottom: 30px;
@@ -287,7 +287,7 @@
             transition: margin-top 1.5s ease;
           }
 
-          #Produk .services .service-item h4 {
+          #p2 .services .service-item h4 {
             font-size: 25px;
             font-weight: 600;
             margin-bottom: 15px;
@@ -295,21 +295,21 @@
             transition: margin-top 1.5s ease;
           }
 
-          #Produk .services .service-item li {
+          #p2 .services .service-item li {
             font-weight: 600;
             font-size: 14px;
           }
 
-          #Produk .services .service-item p {
+          #p2 .services .service-item p {
             color: #474747;
             margin-bottom: 25px;
           }
 
           @media (max-width: 992px) {
-            #Produk .services {
+            #p2 .services {
               margin-top: 80px;
             }
-            #Produk .services .service-item .icon {
+            #p2 .services .service-item .icon {
               width: 170px;
               height: 170px;
               line-height: 170px;
@@ -318,43 +318,43 @@
 /*Produk*/
 
 /*Pembelian*/
-          #Pembelian {
+          #p3 {
             width: 100%;
             height: auto;
             padding: 5rem 8rem;
             display: inline-block;
             background-color: #015eea;
           }
-          #Pembelian .isi {
+          #p3 .isi {
             margin: 20px auto;
           }
 
-          #Pembelian .img1, .img2 {
+          #p3 .img1, .img2 {
             max-width: 600px;
           }
-          #Pembelian .img1 {
+          #p3 .img1 {
             float: left;
           }
           
-          #Pembelian .img2 {
+          #p3 .img2 {
             float: right;
           }
 
-          #Pembelian .text-box {
+          #p3 .text-box {
             color : #fff;
           }
 
-          #Pembelian .text-box h2 {
+          #p3 .text-box h2 {
             font-size: 42px;
             font-weight: 750;
           }
 
-          #Pembelian .text-box p {
+          #p3 .text-box p {
             font-size: 18px;
             font-weight: 400;
           }
 
-          #Pembelian .titik {
+          #p3 .titik {
             color: #00fbff;
             font-size: 15px;
             font-weight: 500;
@@ -363,7 +363,7 @@
 /*Pembelian*/
 
 /*Kontak*/
-          #Kontak {
+          #p4 {
             width: 100%;
             height: auto;
             padding: 8rem 4rem;
@@ -371,14 +371,14 @@
             background-color: #015eea;
           }
 
-          #Kontak .container {
+          #p4 .container {
             display: flex;
             margin: 0 auto;
             max-width: 75%;
             color: white;
           }
 
-          #Kontak .kontak {
+          #p4 .kontak {
             width: 50%;
             background-image: linear-gradient(100deg, #005ae0, #00a7f7);
             box-shadow: -1px 0 20px #ffffff35;
@@ -386,53 +386,53 @@
             border-radius: 20px;
           }
 
-          #Kontak .kontak h2 {
+          #p4 .kontak h2 {
             text-align: center;
             margin-bottom: 20px;
             font-size: 35px;
             font-weight: bold;
           }
 
-          #Kontak .kontak ul {
+          #p4 .kontak ul {
             list-style: none;
             padding: 0;
           }
 
-          #Kontak .kontak li {
+          #p4 .kontak li {
             margin-bottom: 10px;
           }
 
-          #Kontak .kontak li strong {
+          #p4 .kontak li strong {
             display: block;
             font-size: 17px;
           }
 
-          #Kontak .deskripsi {
+          #p4 .deskripsi {
             width: 70%;
             padding: 20px;
             font-weight: 500;
           }
 
-          #Kontak .deskripsi h2 {
+          #p4 .deskripsi h2 {
             margin-bottom: 20px;
             font-weight: bold;
             font-size: 40px;
           }
 
-          #Kontak .titik {
+          #p4 .titik {
             color: #00fbff;
             font-size: 15px;
             font-weight: 500;
           }
 
-          #Kontak ul li a {
+          #p4 ul li a {
             color: white;
             font-size: 18px;
           }
 /*Kontak*/
 
 /*Tentang*/
-          #Tentang {
+          #p5 {
             width: 100%;
             height: auto;
             padding: 3rem 4rem;
@@ -440,24 +440,24 @@
             background-image: linear-gradient(to bottom, #015eea, #00388c);
           }
 
-          #Tentang section {
+          #p5 section {
             margin: auto;
             display: flex;
             margin-bottom: 50px;
           }
 
-          #Tentang .kolom {
+          #p5 .kolom {
             margin-top: 50px;
             margin-bottom: 50px;
           }
 
-          #Tentang .kolom .deskripsi {
+          #p5 .kolom .deskripsi {
             font-size: 40px;
             font-weight: bold;
             color: rgb(255, 255, 255);
           }
 
-          #Tentang h2 {
+          #p5 h2 {
             font-weight: 400;
             font-size: 20px;
             margin-bottom: 10px;
@@ -465,7 +465,7 @@
             width: 100%;
           }
 
-          #Tentang a.tbl-pink {
+          #p5 a.tbl-pink {
             background: #ffffff;
             border-radius: 20px;
             margin-top: 20px;
@@ -475,19 +475,19 @@
             font-weight: bold;
           }
 
-          #Tentang a.tbl-pink:hover {
+          #p5 a.tbl-pink:hover {
             background: #474747;
             color: white;
             text-decoration: none;
           }
 
-          #Tentang .deskripsi-2 {
+          #p5 .deskripsi-2 {
             color: white;
             margin: 10px 0px 20px 0px;
             padding: 10px 0px 10px 0px;
           }
 
-          #Tentang .titik {
+          #p5 .titik {
             color: #00fbff;
             font-size: 15px;
             font-weight: 500;
