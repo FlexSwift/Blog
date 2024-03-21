@@ -10,6 +10,9 @@
           font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
         }
+        a {
+          text-decoration: none;
+        }
 /*HTML*/
 
 /*Navbar*/
@@ -76,13 +79,12 @@
             height: 28px;
           }
           .navbar__container ul li a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             color: rgb(255, 255, 255);
-            text-decoration: none;
             font-size: 18px;
-          }
-          .navbar__container ul li a:active,
-          :focus {
-            display: inline;
           }
           .Konten {
             padding: 0;
@@ -93,26 +95,25 @@
 
 /*Beranda*/
           #p1 {
-            height: 750px;
+            height: 825px;
             padding: 0rem 8rem;
             display: inline-block;
-            background-image: url(../Vector/Beranda.png);
-            background-repeat: no-repeat;
-            background-size: 100%;
+            background: url(../Vector/Beranda.png) no-repeat;
+            background-size: cover;
           }
           #p1 a.tbl-pink {
-            background: #ffffff;
+            background: transparent;
+            border: 1.5px solid white;
             border-radius: 20px;
             margin-top: 20px;
             padding: 10px 20px 10px 20px;
-            color: #000000;
+            color: white;
             cursor: pointer;
           }
 
           #p1 a.tbl-pink:hover {
-            background: #474747;
-            color: white;
-            text-decoration: none;
+            background: white;
+            color: black;
           }
           #p1 small {
             color: #fff;
@@ -152,10 +153,6 @@
 
           #p2 * {
             box-sizing: border-box;
-          }
-
-          #p2 a {
-            text-decoration: none !important;
           }
 
           #p2 ul {
@@ -321,7 +318,7 @@
           #p3 {
             width: 100%;
             height: auto;
-            padding: 5rem 8rem;
+            padding: 5rem 20rem;
             display: inline-block;
             background-color: #015eea;
           }
@@ -366,7 +363,7 @@
           #p4 {
             width: 100%;
             height: auto;
-            padding: 8rem 4rem;
+            padding: 8rem 10rem;
             display: inline-block;
             background-color: #015eea;
           }
@@ -435,7 +432,7 @@
           #p5 {
             width: 100%;
             height: auto;
-            padding: 3rem 4rem;
+            padding: 3rem 12rem;
             display: inline-block;
             background-image: linear-gradient(to bottom, #015eea, #00388c);
           }
@@ -443,6 +440,7 @@
           #p5 section {
             margin: auto;
             display: flex;
+            align-items: center;
             margin-bottom: 50px;
           }
 
@@ -466,19 +464,18 @@
           }
 
           #p5 a.tbl-pink {
-            background: #ffffff;
+            background: transparent;
+            border: 1.5px solid white;
             border-radius: 20px;
             margin-top: 20px;
             padding: 10px 20px 10px 20px;
-            color: #000000;
+            color: white;
             cursor: pointer;
-            font-weight: bold;
           }
 
           #p5 a.tbl-pink:hover {
-            background: #474747;
-            color: white;
-            text-decoration: none;
+            background: white;
+            color: black;
           }
 
           #p5 .deskripsi-2 {
@@ -491,6 +488,10 @@
             color: #00fbff;
             font-size: 15px;
             font-weight: 500;
+          }
+          #p5 img {
+            height: calc(80% - 4rem);
+            width: calc(80% - 4rem);
           }
 /*Tentang*/
 
